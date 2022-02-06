@@ -1,4 +1,4 @@
-# fn: a functional programming library for (generic) Go
+# fun: a functional programming library for (generic) Go
 
 A functional programming library for Go 1.18+. Currently mostly inspired by array functions in
 JavaScript, but will likely grow over time.

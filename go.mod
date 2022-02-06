@@ -1,4 +1,4 @@
-module fn
+module github.com/lucperkins/fn
 
 go 1.18
 

@@ -3,6 +3,8 @@
 A functional programming library for Go 1.18+. Currently mostly inspired by array functions in
 JavaScript, but will likely grow over time.
 
+> Yes, there are many libraries out there like this. This is mostly a learning exercise for me.
+
 ## Current API
 
 ```go

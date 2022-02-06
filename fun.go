@@ -66,7 +66,7 @@ func Any[T any](items []T, fn func(T) bool) bool {
 }
 
 // Reduce applies the supplied function rightward through the slice and returns the result.
-func Reduce[T any](items []T, fn func(T, T) T) T {
+func Reduce[T, U any](items []T, fn func(U, T) U) U {
 	var value T
 	for _, item := range items {
 		value = fn(value, item)
